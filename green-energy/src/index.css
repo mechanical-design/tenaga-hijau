@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Optional: Set the body background to match your screenshot */
+body {
+background-color: #020617;
+color: white;
+margin: 0;
+font-family: sans-serif;
+}
