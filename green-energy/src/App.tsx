@@ -585,7 +585,7 @@ function CarbonCalculator({ lang, t, onClose }: CarbonCalculatorProps) {
   );
 }
 
-type LoginScreenProps = { lang: "ms" | "en"; setLang: (l: "ms" | "en") => void; reg: any; setReg: (r: any) => void; t: any; onSubmit: () => void };
+type LoginScreenProps = { lang: "ms" | "en"; setLang: (l: "ms" | "en") => void; reg: any; setReg: (r: any) => void; t: any; onSubmit: (event: React.FormEvent<HTMLFormElement>) => void };
 function LoginScreen({ lang, setLang, reg, setReg, t, onSubmit }: LoginScreenProps) {
   return (
     <main className="min-h-screen bg-slate-950 px-5 py-8 text-slate-100">
